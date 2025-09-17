@@ -62,7 +62,14 @@ export const TitanicApp = () => {
 
       {/* Hero Section */}
       <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-blue-700/10 to-slate-800/20"></div>
+        <div className="absolute inset-0">
+          <img 
+            src="https://images.unsplash.com/photo-1561554250-0086e85c2042?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxUaXRhbmljJTIwaGlzdG9yaWNhbHxlbnwwfHx8fDE3NTgxNDU1Nzh8MA&ixlib=rb-4.1.0&q=85&w=1920"
+            alt="Titanic underwater"
+            className="w-full h-full object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-blue-700/20 to-slate-800/40"></div>
+        </div>
         <div className="absolute inset-0">
           <div className="ocean-waves"></div>
         </div>
