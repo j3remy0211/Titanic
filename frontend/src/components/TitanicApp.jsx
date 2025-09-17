@@ -241,9 +241,14 @@ export const TitanicApp = () => {
               <TabsContent key={category} value={category} className="mt-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {images.map((image, index) => (
-                    <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow group">
-                      <div className="aspect-video bg-slate-200 flex items-center justify-center">
-                        <Camera className="w-12 h-12 text-slate-400" />
+                    <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow group maritime-card">
+                      <div className="aspect-video bg-slate-200 overflow-hidden">
+                        <img 
+                          src={image.image} 
+                          alt={image.title}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                          loading="lazy"
+                        />
                       </div>
                       <CardContent className="p-4">
                         <h3 className="font-semibold text-slate-800 mb-2">{image.title}</h3>
