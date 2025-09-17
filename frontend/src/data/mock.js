@@ -54,60 +54,74 @@ export const mockData = {
     exterior: [
       {
         title: "El Titanic en Southampton",
-        description: "El majestuoso RMS Titanic atracado en Southampton antes de su viaje inaugural"
+        description: "El majestuoso RMS Titanic atracado en Southampton antes de su viaje inaugural",
+        image: "https://images.unsplash.com/photo-1750559821975-4ab7e2fb680c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxtYXJpdGltZSUyMHNoaXB8ZW58MHx8fHwxNzU4MTQ1NTg0fDA&ixlib=rb-4.1.0&q=85"
       },
       {
         title: "Vista lateral completa",
-        description: "Imagen icónica mostrando la impresionante longitud del barco"
+        description: "Imagen icónica mostrando la impresionante longitud del barco",
+        image: "https://images.unsplash.com/photo-1632751527537-b964695ebcdc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxtYXJpdGltZSUyMHNoaXB8ZW58MHx8fHwxNzU4MTQ1NTg0fDA&ixlib=rb-4.1.0&q=85"
       },
       {
         title: "Las cuatro chimeneas",
-        description: "Las famosas chimeneas del Titanic, símbolos de poder y elegancia"
+        description: "Las famosas chimeneas del Titanic, símbolos de poder y elegancia",
+        image: "https://images.unsplash.com/photo-1643235227351-7825854805c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjN8MHwxfHNlYXJjaHwzfHxtYXJpdGltZSUyMHNoaXB8ZW58MHx8fHwxNzU4MTQ1NTg0fDA&ixlib=rb-4.1.0&q=85"
       }
     ],
     interior: [
       {
-        title: "Gran Escalinata",
-        description: "La espectacular escalinata de primera clase con su cúpula de cristal"
+        title: "Restos del Titanic",
+        description: "Los impresionantes restos del RMS Titanic en el fondo del océano",
+        image: "https://images.unsplash.com/photo-1561554250-0086e85c2042?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxUaXRhbmljJTIwaGlzdG9yaWNhbHxlbnwwfHx8fDE3NTgxNDU1Nzh8MA&ixlib=rb-4.1.0&q=85"
       },
       {
-        title: "Salón de Primera Clase",
-        description: "Elegante salón donde se reunía la alta sociedad durante el viaje"
+        title: "Memorial Submarino",
+        description: "Vista submarina de los restos, preservando la memoria del trágico naufragio",
+        image: "https://images.pexels.com/photos/33928032/pexels-photo-33928032.jpeg"
       },
       {
-        title: "Comedor Principal",
-        description: "El lujoso comedor principal con capacidad para cientos de pasajeros"
+        title: "Legado Oceánico",
+        description: "Los restos del Titanic yacen como testimonio eterno en las profundidades",
+        image: "https://images.pexels.com/photos/33928031/pexels-photo-33928031.jpeg"
       }
     ],
     construccion: [
       {
         title: "Astilleros Harland and Wolff",
-        description: "El Titanic en construcción en Belfast, mostrando su impresionante estructura"
+        description: "El Titanic en construcción en Belfast, mostrando su impresionante estructura",
+        image: "https://images.unsplash.com/photo-1569400658375-aed5f78d00fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxUaXRhbmljJTIwaGlzdG9yaWNhbHxlbnwwfHx8fDE3NTgxNDU1Nzh8MA&ixlib=rb-4.1.0&q=85"
       },
       {
-        title: "Botadura del casco",
-        description: "El momento histórico cuando el casco del Titanic tocó el agua por primera vez"
+        title: "Museo Titanic Belfast",
+        description: "El moderno museo que conmemora la construcción del famoso transatlántico",
+        image: "https://images.unsplash.com/photo-1628583731839-5f47d7cadcf6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxUaXRhbmljJTIwaGlzdG9yaWNhbHxlbnwwfHx8fDE3NTgxNDU1Nzh8MA&ixlib=rb-4.1.0&q=85"
       },
       {
-        title: "Trabajadores en el astillero",
-        description: "Miles de trabajadores dedicados a la construcción del barco más grande del mundo"
+        title: "Puerto de construcción",
+        description: "Vista del puerto donde se construyó el barco más grande de su época",
+        image: "https://images.unsplash.com/photo-1617699980458-61c16c471111?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxtYXJpdGltZSUyMHNoaXB8ZW58MHx8fHwxNzU4MTQ1NTg0fDA&ixlib=rb-4.1.0&q=85"
       }
     ],
     rescate: [
       {
-        title: "Carpathia llega al rescate",
-        description: "El RMS Carpathia rescatando a los supervivientes en botes salvavidas"
+        title: "Memorial en el mar",
+        description: "Lugar donde reposan los restos del Titanic y las almas que perecieron",
+        image: "https://images.unsplash.com/photo-1735633610804-ad1802a8a5b8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxUaXRhbmljJTIwaGlzdG9yaWNhbHxlbnwwfHx8fDE3NTgxNDU1Nzh8MA&ixlib=rb-4.1.0&q=85"
       },
       {
-        title: "Supervivientes a bordo",
-        description: "Pasajeros rescatados recuperándose a bordo del Carpathia"
+        title: "Embarcaciones de rescate",
+        description: "Barcos similares al Carpathia que acudieron al rescate de los supervivientes",
+        image: "https://images.pexels.com/photos/33923604/pexels-photo-33923604.jpeg"
       },
       {
-        title: "Llegada a Nueva York",
-        description: "El Carpathia llegando a Nueva York con los supervivientes del Titanic"
+        title: "Legado marítimo",
+        description: "El mar que fue testigo de la tragedia más famosa de la historia naval",
+        image: "https://images.pexels.com/photos/33932109/pexels-photo-33932109.jpeg"
       }
     ]
   },
+
+  heroImage: "https://images.unsplash.com/photo-1561554250-0086e85c2042?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxUaXRhbmljJTIwaGlzdG9yaWNhbHxlbnwwfHx8fDE3NTgxNDU1Nzh8MA&ixlib=rb-4.1.0&q=85",
 
   passengers: {
     firstClass: [
