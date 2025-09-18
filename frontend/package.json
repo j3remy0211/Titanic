@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://j3remy0211.github.io/Titanic",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
