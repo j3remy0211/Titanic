@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS Titanic - Historia del Barco Insumergible</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body class="paper-texture">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-b from-stone-900 to-stone-800 text-amber-100 py-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <h1 class="text-2xl md:text-3xl font-bold tracking-wider">RMS TITANIC</h1>
+                <div class="hidden md:flex space-x-8 text-sm tracking-widest">
+                    <a href="#historia" class="hover:text-amber-300 transition-colors duration-300">HISTORIA</a>
+                    <a href="#cronologia" class="hover:text-amber-300 transition-colors duration-300">CRONOLOGÍA</a>
+                    <a href="#pasajeros" class="hover:text-amber-300 transition-colors duration-300">PASAJEROS</a>
+                    <a href="#datos" class="hover:text-amber-300 transition-colors duration-300">DATOS</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1574687263812-a27e1c9e11ab?w=1600" alt="RMS Titanic"
+            class="absolute inset-0 w-full h-full object-cover sepia-overlay">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="relative z-10 text-center text-amber-50 px-4 fade-in-up">
+            <div class="ornament w-64 mx-auto mb-6"></div>
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-wider">RMS TITANIC</h1>
+            <p class="text-xl md:text-3xl italic mb-2">El Barco de los Sueños</p>
+            <p class="text-lg md:text-xl mb-8">1912 - Una Historia que Jamás Será Olvidada</p>
+            <div class="ornament w-64 mx-auto mt-6"></div>
+        </div>
+    </section>
+
+    <!-- Historia Section -->
+    <section id="historia" class="py-20 px-4 bg-stone-50">
+        <div class="container mx-auto max-w-5xl">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Historia del Titanic</h2>
+                <div class="divider-ornament mx-auto my-6"></div>
+                <p class="text-xl italic text-stone-600">El buque más lujoso de su época</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16 scroll-reveal">
+                <div>
+                    <img src="https://images.pexels.com/photos/34148465/pexels-photo-34148465.jpeg?w=800"
+                        alt="Construcción del Titanic" class="vintage-border w-full h-80 object-cover">
+                </div>
+                <div class="space-y-4 text-lg leading-relaxed">
+                    <p>El <strong>RMS Titanic</strong> fue un transatlántico británico, el mayor barco de pasajeros del
+                        mundo al momento de su botadura. Fue construido entre 1909 y 1912 en los astilleros de Harland
+                        and Wolff en Belfast, Irlanda del Norte.</p>
+                    <p>Pertenecía a la naviera White Star Line y fue diseñado por Thomas Andrews. Con 269 metros de
+                        eslora y 28 metros de manga, el Titanic era considerado "prácticamente insumergible" debido a
+                        sus 16 compartimentos estancos.</p>
+                </div>
+            </div>
+
+            <div class="vintage-card p-8 mb-12 scroll-reveal">
+                <h3 class="text-3xl font-bold mb-6 text-stone-800">Características Técnicas</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <p class="stat-number">269m</p>
+                        <p class="text-stone-600 font-semibold tracking-wide">Eslora</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="stat-number">46,328</p>
+                        <p class="text-stone-600 font-semibold tracking-wide">Toneladas</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="stat-number">3,547</p>
+                        <p class="text-stone-600 font-semibold tracking-wide">Capacidad Total</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center scroll-reveal">
+                <div class="space-y-4 text-lg leading-relaxed md:order-2">
+                    <h3 class="text-3xl font-bold mb-4 text-stone-800">El Lujo a Bordo</h3>
+                    <p>El Titanic representaba el lujo y la opulencia de la época eduardiana. Sus interiores fueron
+                        diseñados por los mejores artesanos y decoradores de la época.</p>
+                    <p>La Gran Escalinata de Primera Clase, con su cúpula de cristal y paneles de roble tallado, era una
+                        obra maestra arquitectónica. Los pasajeros de primera clase disfrutaban de un gimnasio, piscina
+                        cubierta, baño turco, sala de fumadores y el elegante restaurante À la Carte.</p>
+                </div>
+                <div class="md:order-1">
+                    <img src="https://images.pexels.com/photos/415585/pexels-photo-415585.jpeg?w=800"
+                        alt="Interior de lujo" class="vintage-border w-full h-80 object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cronología Section -->
+    <section id="cronologia" class="py-20 px-4 bg-gradient-to-b from-stone-100 to-stone-50">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Cronología del Viaje</h2>
+                <div class="divider-ornament mx-auto my-6"></div>
+                <p class="text-xl italic text-stone-600">Del sueño a la tragedia</p>
+            </div>
+
+            <div class="space-y-8">
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">31 de Mayo, 1911</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Botadura del Titanic</p>
+                    <p class="text-stone-600">El casco del Titanic es botado en Belfast. Miles de espectadores
+                        presencian el histórico momento cuando el barco toca el agua por primera vez.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">2 de Abril, 1912</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Pruebas de Mar</p>
+                    <p class="text-stone-600">El Titanic completa exitosamente sus pruebas de mar, alcanzando una
+                        velocidad de 23.5 nudos. Es declarado apto para navegar.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">10 de Abril, 1912 - 12:00 hrs</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Zarpa desde Southampton</p>
+                    <p class="text-stone-600">El Titanic inicia su viaje inaugural con destino a Nueva York. A bordo
+                        viajan 2,224 personas, incluyendo algunos de los hombres más ricos del mundo.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">10 de Abril, 1912 - 18:30 hrs</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Escala en Cherburgo, Francia</p>
+                    <p class="text-stone-600">El Titanic hace su primera parada para recoger más pasajeros,
+                        principalmente de primera clase.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">11 de Abril, 1912</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Última parada en Queenstown, Irlanda</p>
+                    <p class="text-stone-600">El Titanic recoge a sus últimos pasajeros antes de partir hacia el
+                        Atlántico abierto. Es la última vez que el barco toca tierra.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">14 de Abril, 1912 - Durante el día</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Advertencias de Icebergs</p>
+                    <p class="text-stone-600">El Titanic recibe múltiples advertencias por radio sobre la presencia de
+                        icebergs en su ruta. El capitán Edward Smith mantiene la velocidad del barco.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative bg-red-50 border-red-300 scroll-reveal">
+                    <div class="timeline-dot" style="background: #991b1b;"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-red-900">14 de Abril, 1912 - 23:40 hrs</h3>
+                    <p class="text-lg mb-2 font-semibold text-red-800">Colisión con el Iceberg</p>
+                    <p class="text-red-700">Los vigías Frederick Fleet y Reginald Lee avistan un iceberg. A pesar de las
+                        maniobras de evasión, el Titanic golpea el iceberg en su costado de estribor, abriendo una vía
+                        de agua fatal.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">15 de Abril, 1912 - 00:15 hrs</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Orden de Evacuación</p>
+                    <p class="text-stone-600">El capitán Smith ordena preparar los botes salvavidas. Se envía la primera
+                        llamada de socorro por radio con la posición del barco.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">15 de Abril, 1912 - 00:45 hrs</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Primer bote salvavidas</p>
+                    <p class="text-stone-600">Se lanza el primer bote salvavidas con capacidad para 65 personas, pero
+                        solo lleva 28. Muchos pasajeros aún no creen que el barco se hundirá.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative bg-stone-900 text-amber-50 scroll-reveal">
+                    <div class="timeline-dot" style="background: #1c1917; border-color: #78716c;"></div>
+                    <h3 class="text-2xl font-bold mb-2">15 de Abril, 1912 - 02:20 hrs</h3>
+                    <p class="text-lg mb-2 font-semibold">El Titanic se Hunde</p>
+                    <p>El Titanic se parte en dos y se hunde completamente en las gélidas aguas del Atlántico Norte. De
+                        las 2,224 personas a bordo, solo 710 sobreviven.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">15 de Abril, 1912 - 04:00 hrs</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Llegada del Carpathia</p>
+                    <p class="text-stone-600">El RMS Carpathia llega al lugar del naufragio y comienza a rescatar a los
+                        sobrevivientes de los botes salvavidas.</p>
+                </div>
+
+                <div class="vintage-card p-6 pl-12 relative scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <h3 class="text-2xl font-bold mb-2 text-stone-800">18 de Abril, 1912</h3>
+                    <p class="text-lg mb-2 font-semibold text-stone-700">Carpathia llega a Nueva York</p>
+                    <p class="text-stone-600">El Carpathia llega al puerto de Nueva York con los 710 sobrevivientes.
+                        Miles de personas esperan noticias de sus seres queridos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pasajeros Section -->
+    <section id="pasajeros" class="py-20 px-4 bg-stone-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Pasajeros y Tripulación</h2>
+                <div class="divider-ornament mx-auto my-6"></div>
+                <p class="text-xl italic text-stone-600">Historias de valor y tragedia</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="vintage-card p-8 text-center scroll-reveal">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">Primera Clase</h3>
+                    <p class="stat-number">325</p>
+                    <p class="text-stone-600 mb-4">Pasajeros</p>
+                    <p class="text-lg font-semibold text-green-700">202 Sobrevivientes</p>
+                    <p class="text-stone-500">Tasa de supervivencia: 62%</p>
+                </div>
+                <div class="vintage-card p-8 text-center scroll-reveal">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">Segunda Clase</h3>
+                    <p class="stat-number">285</p>
+                    <p class="text-stone-600 mb-4">Pasajeros</p>
+                    <p class="text-lg font-semibold text-amber-700">118 Sobrevivientes</p>
+                    <p class="text-stone-500">Tasa de supervivencia: 41%</p>
+                </div>
+                <div class="vintage-card p-8 text-center scroll-reveal">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">Tercera Clase</h3>
+                    <p class="stat-number">706</p>
+                    <p class="text-stone-600 mb-4">Pasajeros</p>
+                    <p class="text-lg font-semibold text-red-700">178 Sobrevivientes</p>
+                    <p class="text-stone-500">Tasa de supervivencia: 25%</p>
+                </div>
+            </div>
+
+            <div class="vintage-card p-8 mb-12 scroll-reveal">
+                <h3 class="text-3xl font-bold mb-6 text-stone-800">Tripulación</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="text-lg mb-2"><strong>Total de tripulación:</strong> 908 personas</p>
+                        <p class="text-lg mb-2"><strong>Sobrevivientes:</strong> 212 personas</p>
+                        <p class="text-lg mb-4"><strong>Tasa de supervivencia:</strong> 23%</p>
+                    </div>
+                    <div>
+                        <p class="text-stone-600 text-lg leading-relaxed">La tripulación incluía desde el capitán y
+                            oficiales, hasta músicos, camareros, fogoneros y maquinistas. Muchos miembros de la
+                            tripulación perdieron sus vidas ayudando a evacuar a los pasajeros.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-8">
+                <div class="vintage-card p-8 scroll-reveal">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">Capitán Edward Smith</h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="md:col-span-2">
+                            <p class="text-lg leading-relaxed mb-4">Edward John Smith, conocido como el "Comandante
+                                Millonario" por su popularidad entre los pasajeros adinerados, tenía 62 años y planeaba
+                                retirarse después del viaje inaugural del Titanic.</p>
+                            <p class="text-lg leading-relaxed">Con más de 40 años de experiencia en el mar, el Capitán
+                                Smith permaneció en el puente hasta el final. Su cuerpo nunca fue recuperado.</p>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <img src="https://images.unsplash.com/photo-1578593139775-971441c3c518?w=400"
+                                alt="Época del Titanic" class="vintage-border w-full h-48 object-cover">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vintage-card p-8 scroll-reveal">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">Personajes Notables</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="text-xl font-bold mb-2 text-stone-700">John Jacob Astor IV</h4>
+                            <p class="text-stone-600 mb-4">El hombre más rico a bordo con una fortuna de 87 millones de
+                                dólares. Ayudó a su esposa embarazada a subir a un bote salvavidas y permaneció en el
+                                barco. Tenía 47 años.</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2 text-stone-700">Molly Brown</h4>
+                            <p class="text-stone-600 mb-4">"La Insumergible Molly Brown" sobrevivió y ayudó a remar su
+                                bote salvavidas. Posteriormente recaudó fondos para los sobrevivientes necesitados.</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2 text-stone-700">Isidor y Ida Straus</h4>
+                            <p class="text-stone-600 mb-4">Dueños de Macy's, se negaron a separarse. Ida rechazó su
+                                lugar en un bote salvavidas para permanecer con su esposo de 67 años.</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2 text-stone-700">Thomas Andrews</h4>
+                            <p class="text-stone-600 mb-4">El diseñador del Titanic ayudó en la evacuación después de
+                                calcular que el barco se hundiría. Fue visto por última vez en el salón de fumar de
+                                primera clase.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vintage-card p-8 bg-amber-50 border-amber-300 scroll-reveal">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">La Orquesta del Titanic</h3>
+                    <p class="text-lg leading-relaxed mb-4">Los ocho músicos de la orquesta del Titanic, dirigidos por
+                        Wallace Hartley, continuaron tocando música en la cubierta mientras el barco se hundía, con el
+                        objetivo de mantener la calma entre los pasajeros.</p>
+                    <p class="text-lg leading-relaxed">Ninguno de ellos sobrevivió. Se dice que la última pieza que
+                        tocaron fue el himno "Nearer, My God, to Thee" (Más Cerca, Oh Dios, de Ti). Su valentía y
+                        dedicación se convirtió en uno de los actos más memorables de heroísmo del desastre.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Datos y Estadísticas -->
+    <section id="datos" class="py-20 px-4 bg-gradient-to-b from-stone-100 to-stone-200">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-stone-800">Datos y Cifras</h2>
+                <div class="divider-ornament mx-auto my-6"></div>
+                <p class="text-xl italic text-stone-600">Los números detrás de la tragedia</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <div class="vintage-card p-6 text-center scroll-reveal">
+                    <p class="stat-number text-4xl">2,224</p>
+                    <p class="text-stone-600 font-semibold">Personas a Bordo</p>
+                </div>
+                <div class="vintage-card p-6 text-center scroll-reveal">
+                    <p class="stat-number text-4xl">1,514</p>
+                    <p class="text-stone-600 font-semibold">Fallecidos</p>
+                </div>
+                <div class="vintage-card p-6 text-center scroll-reveal">
+                    <p class="stat-number text-4xl">710</p>
+                    <p class="text-stone-600 font-semibold">Sobrevivientes</p>
+                </div>
+                <div class="vintage-card p-6 text-center scroll-reveal">
+                    <p class="stat-number text-4xl">32%</p>
+                    <p class="text-stone-600 font-semibold">Tasa de Supervivencia</p>
+                </div>
+            </div>
+
+            <div class="vintage-card p-8 mb-12 scroll-reveal">
+                <h3 class="text-3xl font-bold mb-6 text-stone-800">Construcción y Costos</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-3">
+                        <p class="text-lg"><strong>Tiempo de construcción:</strong> 3 años (1909-1912)</p>
+                        <p class="text-lg"><strong>Trabajadores:</strong> 3,000 personas</p>
+                        <p class="text-lg"><strong>Costo total:</strong> £1.5 millones (equivalente a $200 millones hoy)
+                        </p>
+                        <p class="text-lg"><strong>Remaches utilizados:</strong> 3 millones</p>
+                    </div>
+                    <div class="space-y-3">
+                        <p class="text-lg"><strong>Acero utilizado:</strong> 46,000 toneladas</p>
+                        <p class="text-lg"><strong>Hélices:</strong> 3 (2 de 7m y 1 de 5m de diámetro)</p>
+                        <p class="text-lg"><strong>Anclas:</strong> 3 (la central pesaba 15 toneladas)</p>
+                        <p class="text-lg"><strong>Chimeneas:</strong> 4 (solo 3 funcionales)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vintage-card p-8 mb-12 scroll-reveal">
+                <h3 class="text-3xl font-bold mb-6 text-stone-800">Equipamiento y Lujo</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <p class="text-5xl font-bold text-stone-700 mb-2">20</p>
+                        <p class="text-stone-600">Botes Salvavidas</p>
+                        <p class="text-sm text-stone-500">(Capacidad: 1,178 personas)</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-5xl font-bold text-stone-700 mb-2">10</p>
+                        <p class="text-stone-600">Cubiertas</p>
+                        <p class="text-sm text-stone-500">(De la A a la G)</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-5xl font-bold text-stone-700 mb-2">840</p>
+                        <p class="text-stone-600">Camarotes</p>
+                        <p class="text-sm text-stone-500">(416 Primera, 162 Segunda, 262 Tercera)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 scroll-reveal">
+                <div class="vintage-card p-8">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">Precios de los Pasajes (1912)</h3>
+                    <div class="space-y-3">
+                        <p class="text-lg"><strong>Primera Clase Suite:</strong> £870 ($4,350)</p>
+                        <p class="text-stone-600 text-sm ml-4">Equivalente a $100,000 hoy</p>
+                        <p class="text-lg"><strong>Primera Clase:</strong> £30 ($150)</p>
+                        <p class="text-stone-600 text-sm ml-4">Equivalente a $3,500 hoy</p>
+                        <p class="text-lg"><strong>Segunda Clase:</strong> £12 ($60)</p>
+                        <p class="text-stone-600 text-sm ml-4">Equivalente a $1,400 hoy</p>
+                        <p class="text-lg"><strong>Tercera Clase:</strong> £3 a £8 ($15-$40)</p>
+                        <p class="text-stone-600 text-sm ml-4">Equivalente a $350-$900 hoy</p>
+                    </div>
+                </div>
+                <div class="vintage-card p-8">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">Provisiones para el Viaje</h3>
+                    <div class="space-y-2">
+                        <p class="text-lg">• 75,000 libras de carne fresca</p>
+                        <p class="text-lg">• 40,000 huevos</p>
+                        <p class="text-lg">• 40 toneladas de papas</p>
+                        <p class="text-lg">• 36,000 naranjas</p>
+                        <p class="text-lg">• 1,000 botellas de vino</p>
+                        <p class="text-lg">• 15,000 botellas de cerveza</p>
+                        <p class="text-lg">• 1,500 galones de leche</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legado Section -->
+    <section class="py-20 px-4 bg-stone-800 text-amber-50">
+        <div class="container mx-auto max-w-5xl">
+            <div class="text-center mb-12 scroll-reveal">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Legado e Impacto</h2>
+                <div class="divider-ornament mx-auto my-6"
+                    style="background-image: url(&quot;data:image/svg+xml,%3Csvg width='100' height='30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 15 L45 10 L40 15 L45 20 Z M50 15 L55 10 L60 15 L55 20 Z' fill='%23fef3c7' stroke='%23fef3c7' stroke-width='1'/%3E%3C/svg%3E&quot;);">
+                </div>
+            </div>
+
+            <div class="space-y-8 scroll-reveal">
+                <div class="bg-stone-900 p-8 rounded border-2 border-amber-900">
+                    <h3 class="text-2xl font-bold mb-4 text-amber-100">Cambios en la Seguridad Marítima</h3>
+                    <p class="text-lg leading-relaxed mb-4">El desastre del Titanic llevó a cambios revolucionarios en
+                        las regulaciones de seguridad marítima internacional:</p>
+                    <ul class="space-y-2 text-lg">
+                        <li>• Botes salvavidas suficientes para todos los pasajeros y tripulación</li>
+                        <li>• Creación de la Patrulla Internacional del Hielo</li>
+                        <li>• Radio 24 horas en todos los barcos de pasajeros</li>
+                        <li>• Primera Convención Internacional para la Seguridad de la Vida en el Mar (SOLAS) en 1914
+                        </li>
+                        <li>• Ejercicios obligatorios de botes salvavidas</li>
+                    </ul>
+                </div>
+
+                <div class="bg-stone-900 p-8 rounded border-2 border-amber-900">
+                    <h3 class="text-2xl font-bold mb-4 text-amber-100">El Descubrimiento del Pecio</h3>
+                    <p class="text-lg leading-relaxed mb-4">El 1 de septiembre de 1985, una expedición liderada por
+                        Robert Ballard descubrió los restos del Titanic a 3,800 metros de profundidad en el Atlántico
+                        Norte, a unas 370 millas al sureste de Terranova.</p>
+                    <p class="text-lg leading-relaxed">El barco se partió en dos secciones que yacen a 600 metros de
+                        distancia. Miles de artefactos han sido recuperados y exhibidos en museos alrededor del mundo.
+                    </p>
+                </div>
+
+                <div class="bg-stone-900 p-8 rounded border-2 border-amber-900">
+                    <h3 class="text-2xl font-bold mb-4 text-amber-100">Impacto Cultural</h3>
+                    <p class="text-lg leading-relaxed mb-4">La historia del Titanic ha capturado la imaginación del
+                        mundo durante más de un siglo:</p>
+                    <ul class="space-y-2 text-lg">
+                        <li>• Más de 100 libros escritos sobre el desastre</li>
+                        <li>• Numerosas películas, siendo la de James Cameron (1997) la más conocida</li>
+                        <li>• Múltiples museos dedicados al Titanic en varios países</li>
+                        <li>• Símbolo de la arrogancia humana y los peligros de la tecnología sin precaución</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-16 scroll-reveal">
+                <img src="https://images.unsplash.com/photo-1561625116-df74735458a5?w=800" alt="Pecio del Titanic"
+                    class="vintage-border w-full max-w-2xl mx-auto h-96 object-cover mb-8">
+                <p class="text-xl italic">"El Titanic descansa en paz en las profundidades del océano, un recordatorio
+                    eterno de la fragilidad humana frente a las fuerzas de la naturaleza."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-amber-100 py-12 px-4">
+        <div class="container mx-auto max-w-4xl text-center">
+            <div class="ornament w-64 mx-auto mb-6"></div>
+            <h3 class="text-2xl font-bold mb-4">RMS Titanic</h3>
+            <p class="text-lg mb-2">10 de Abril, 1912 - 15 de Abril, 1912</p>
+            <p class="italic mb-6">"En memoria de las 1,514 almas que perdieron sus vidas"</p>
+            <div class="ornament w-64 mx-auto mt-6"></div>
+            <p class="text-sm mt-8 text-amber-200">Sitio web histórico dedicado a preservar la memoria del RMS Titanic
+            </p>
+            <p class="text-sm text-amber-200">Desarrollado por Jeremy Benjamín Chávez Hernández - Febrero 2026</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>"

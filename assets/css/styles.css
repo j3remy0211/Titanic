@@ -1,0 +1,123 @@
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #f4f1e8;
+    color: #2c2416;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+}
+
+.vintage-border {
+    border: 3px double #8b7355;
+    position: relative;
+}
+
+.vintage-border::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border: 1px solid #8b7355;
+    pointer-events: none;
+}
+
+.ornament {
+    background-image: 
+        linear-gradient(45deg, transparent 48%, #8b7355 48%, #8b7355 52%, transparent 52%),
+        linear-gradient(-45deg, transparent 48%, #8b7355 48%, #8b7355 52%, transparent 52%);
+    background-size: 20px 20px;
+    background-position: center;
+    height: 20px;
+}
+
+.sepia-overlay {
+    position: relative;
+}
+
+.sepia-overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(112, 66, 20, 0.15);
+    pointer-events: none;
+}
+
+.paper-texture {
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(139, 115, 85, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(139, 115, 85, 0.03) 0%, transparent 50%);
+}
+
+.timeline-dot {
+    width: 20px;
+    height: 20px;
+    background: #8b7355;
+    border: 3px solid #f4f1e8;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+}
+
+.vintage-card {
+    background: #faf8f3;
+    border: 2px solid #d4c4a8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), inset 0 0 20px rgba(139, 115, 85, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vintage-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15), inset 0 0 20px rgba(139, 115, 85, 0.05);
+}
+
+.hero-overlay {
+    background: linear-gradient(180deg, rgba(44, 36, 22, 0.7) 0%, rgba(44, 36, 22, 0.85) 100%);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #8b7355;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.divider-ornament {
+    width: 100%;
+    height: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 15 L45 10 L40 15 L45 20 Z M50 15 L55 10 L60 15 L55 20 Z' fill='%238b7355' stroke='%238b7355' stroke-width='1'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
